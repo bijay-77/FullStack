@@ -1,0 +1,36 @@
+nav ul {
+  list-style: none;
+  background-color: #f9e4b7;
+  padding: 10px;
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #4b2e05;
+  font-weight: bold;
+}
+#ingredients ul {
+  list-style: square;
+  margin-left: 20px;
+}
+#instructions ol {
+  margin-left: 20px;
+}
+section {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 12px;
+  margin: 12px;
+  background-color: #fffefb;
+}
+footer {
+  text-align: center;
+  background-color: #f5c16c;
+  padding: 10px;
+  color: #3a2a0f;
+  font-size: 0.9em;
+}
