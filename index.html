@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css">
+    <title>My Portfolio</title>
+</head>
+
+<body class="body">
+
+<header>
+    <nav>
+        <h1 class="Name"> Bijay Acharya</h1>
+
+        <ul class="navitem">
+            <li data-target="home" class="isselected">Home</li>
+            <li data-target="about">Bio</li>
+            <li data-target="qualifications">Education</li>
+            <li data-target="interests">Interest</li>
+            <li data-target="contact">Contact</li>
+        </ul>
+    </nav>
+</header>
+
+<section id="home">
+    <div class="helloitem">
+        <span class="Hellosec">Hello, I'm</span>
+        <div class="Nischal">Bijay</div>
+
+        <p class="p1">
+            I'm Bijay Acharya, from Sindhupalchok, Nepal. I am currently living in Kathmandu.
+            Below this, you can find everything about me.
+        </p>
+
+        <button id="aboutBtn">About Me</button>
+        <button id="projectsBtn">Projects</button>
+    </div>
+
+    <div>
+        <img src="photo.jpg" 
+             alt= height="150" width="150" class="image">
+    </div>
+</section>
+
+<section id="about">
+    <h2 class="me">About Me:</h2>
+
+    <p class="paragraph">
+        My name is Bijay Acharya. I am studying Bachelor in Computer Science at Herald College Kathmandu,
+        affiliated to the University of Wolverhampton. I will graduate in 2027 and will be proficient in
+        HTML, CSS, JavaScript, and PHP.
+    </p>
+
+    <section id="video-section">
+        <h2>My weather app project</h2>
+        <video id="introVideo" width="600" controls>
+            <source src="weather.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+</section>
+
+<section id="qualifications">
+    <h2 class="qualification">Qualification</h2>
+
+    <table border="1" class="table">
+        <tr class="tr1">
+            <th>Degree/Qualification</th>
+            <th>Institution</th>
+            <th>Board</th>
+            <th>Marks</th>
+        </tr>
+        <tr class="tr2">
+            <td>Bachelor in Computer Science</td>
+            <td>University of Wolverhampton</td>
+            <td>UK</td>
+            <td>A</td>
+        </tr>
+        <tr class="tr3">
+            <td>High School / 10+2</td>
+            <td>Manakamana Higher Secondary School</td>
+            <td>NEB</td>
+            <td>B+</td>
+        </tr>
+        <tr class="tr4">
+            <td>Secondary Education</td>
+            <td>Mount Everest Secondary School</td>
+            <td>NEB</td>
+            <td>A+</td>
+        </tr>
+    </table>
+</section>
+
+<section id="interests">
+    <h2 class="interest">Interest & Hobbies:</h2>
+
+    <div class="frame">
+        <div>Coding</div>
+        <div>Football</div>
+        <div>Music</div>
+        <div>Gaming</div>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Featured Projects</h2>
+    <p>Here are the projects that I have worked on:</p>
+
+    <div class="project-container">
+
+        <div class="project-card">
+            <h3>Weather App</h3>
+            <p>The weather app was my first project. It uses HTML, CSS, JS, PHP, and MySQL.</p>
+            <button>View Live</button>
+            <button>GitHub Repo</button>
+        </div>
+
+        <div class="project-card">
+            <h3>Python with AI</h3>
+            <p>In this project, me and my friend worked with python in cooperation with mathematic and learned different topics like Machine Learning(ML)</p>
+            <button>View Live</button>
+            <button>GitHub Repo</button>
+        </div>
+
+        <div class="project-card">
+            <h3>Banking Management System</h3>
+            <p>I build a banking management system with JAVA in my OOP's final project.</p>
+            <button>View Live</button>
+            <button>GitHub Repo</button>
+        </div>
+
+        <div class="project-card">
+            <h3>Tic Tac Toe</h3>
+            <p>I build this game using the concepts of python while I was in first year of University.</p>
+            <button>View Live</button>
+            <button>GitHub Repo</button>
+        </div>
+
+    </div>
+</section>
+
+<section id="contact">
+    <div>
+        <h2>Connect With Me:</h2>
+        <p>Satisfied with me? Contact me.</p>
+
+        <a href="https://www.facebook.com/bijay.acharya.786223" target="_blank">
+            <svg width="26" height="26" fill="#0077ff"><path d="M22 0H4C1.8 0 0 1.8 0 4v18c0 2.2 1.8 4 4 4h9.6v-9H10v-4h3.6V9.4c0-3.6 2.2-5.6 5.4-5.6 1.1 0 2.2.1 3.3.2v3.8h-2.3c-1.8 0-2.2.9-2.2 2.1V13H22l-.6 4h-3.5v9H22c2.2 0 4-1.8 4-4V4c0-2.2-1.8-4-4-4z"/></svg>
+        </a>
+
+        <a href="https://www.instagram.com/bijayacharya7/" target="_blank">
+            <svg width="26" height="26" fill="#0077ff"><path d="M7 2C4.2 2 2 4.2 2 7v10c0 2.8 2.2 5 5 5h10c2.8 0 5-2.2 5-5V7c0-2.8-2.2-5-5-5H7zm8 3a1 1 0 110 2 1 1 0 010-2zm-5 2a5 5 0 110 10 5 5 0 010-10zm0 2a3 3 0 100 6 3 3 0 000-6z"/></svg>
+        </a>
+
+        <a href="https://www.linkedin.com/in/bijay-acharya-7306a7357/" target="_blank">
+            <svg width="26" height="26" fill="#0077ff"><path d="M4.98 3.5C4.98 5 3.9 6 2.5 6S0 5 0 3.5 1.1 1 2.5 1s2.48 1 2.48 2.5zM.1 8h4.7v16H.1V8zm7.9 0h4.4v2.2h.1c.6-1.1 2-2.2 4.1-2.2 4.4 0 5.3 2.9 5.3 6.7V24h-4.7v-7.7c0-1.8 0-4.1-2.5-4.1s-2.9 1.9-2.9 4V24H8V8z"/></svg>
+        </a>
+    </div>
+
+    <div>
+        <span>Contact me, let's make magic together</span>
+
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Name">
+            <input type="text" id="email" placeholder="Email">
+            <input type="text" id="message" placeholder="Message">
+            <button type="submit">Send</button>
+        </form>
+
+        <p id="formStatus"></p>
+    </div>
+</section>
+
+<footer>
+    <span>Designed By Bijay Acharya</span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
